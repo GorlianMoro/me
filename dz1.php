@@ -3,8 +3,8 @@
 $name = "Максим";
 $age = 24;
 $email = "legckostupov.maxim@yandex.ru";
-$city = "Москва"
-$about = "Бариста"
+$city = "Москва";
+$about = "Бариста";
  ?>
 
  <!DOCTYPE html>
@@ -29,7 +29,7 @@ $about = "Бариста"
        <dd><a href="mailto:<?= $email ?>"><?= $email ?></a></dd>
        <dt>Город</dt>
        <dd><?= $city ?></dd>
-       <dt>>О себе</dt>
+       <dt>О себе</dt>
        <dd><?= $about ?></dd>
      </dl>
    </body>
